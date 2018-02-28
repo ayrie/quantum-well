@@ -60,22 +60,24 @@ namespace Studnia
             int wellStart = (int)((range - d)/(2 * step));
             int wellEnd = (int)((range + d) / (2 * step));
 
+            chartFunctions.ChartAreas[0].AxisX.Maximum = range;
+
             for (int i = 0; i < points; i++)
             {
                 if(well.EigenVals[i, 0] < V)
                     chartEnergy.Series[0].Points.AddXY(i, well.EigenVals[i, 0]);
 
-                chartFunctions.Series[0].Points.AddXY(i, well.VMatrix[i, i]);
+                chartFunctions.Series[0].Points.AddXY(i*step, well.VMatrix[i, i]);
 
                 int j = 0;
 
                 while (i > wellStart && i < wellEnd && well.EigenVals[j, 0] < V)
                 {
-                    chartFunctions.Series[1].Points.AddXY(i, well.EigenVals[j, 0]);
+                    chartFunctions.Series[1].Points.AddXY(i*step, well.EigenVals[j, 0]);
                     j++;
                 }
 
-                chartFunctions.Series[2].Points.AddXY(i, well.EigenVals[n, 0] + well.EigenVects[i, n]);
+                chartFunctions.Series[2].Points.AddXY(i*step, well.EigenVals[n, 0] + well.EigenVects[i, n]);
             }
 
 
