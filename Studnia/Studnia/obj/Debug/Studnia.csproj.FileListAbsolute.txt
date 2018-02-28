@@ -1,0 +1,11 @@
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.csprojResolveAssemblyReference.cache
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.MyForm.resources
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.Properties.Resources.resources
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.csproj.GenerateResource.Cache
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.csproj.CoreCompileInputs.cache
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\bin\Debug\Studnia.exe.config
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\bin\Debug\Studnia.exe
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\bin\Debug\Studnia.pdb
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\bin\Debug\DotNumerics.dll
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.exe
+D:\Aga\Documents\PWr\Obliczenia naukowe\Studnia\Studnia\obj\Debug\Studnia.pdb
